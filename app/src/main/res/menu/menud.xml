@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Steak"
+        android:title="스테이크">
+    </item>
+    <item
+        android:id="@+id/lobster"
+        android:title="랍스터">
+
+    </item>
+    <item
+        android:id="@+id/Bibimbab"
+        android:title="비빔밥">
+
+    </item>
+</menu>

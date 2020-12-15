@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Porksoup"
+        android:title="국밥"
+        android:checked="false">
+    </item>
+    <item
+        android:id="@+id/Misosoup"
+        android:title="된장찌개"
+        android:checked="false">
+
+
+    </item>
+    <item
+        android:id="@+id/Kimchisoup"
+        android:title="김치찌개"
+        android:checked="false">
+
+    </item>
+
+
+</menu>

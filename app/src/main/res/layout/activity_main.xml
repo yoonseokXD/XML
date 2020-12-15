@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout="@+id/baseLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/reservation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="대륭 레스토랑 예약"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/ResSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:checked="false"
+            android:text="예약 시작" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+
+        android:padding="75px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/MenuBreakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아침">
+
+        </Button>
+
+        <Button
+            android:id="@+id/MenuLunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="점심"></Button>
+
+        <Button
+            android:id="@+id/MenuDinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="저녁"></Button>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+
+            <DatePicker
+                android:id="@+id/calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner" />
+
+            <Button
+                android:id="@+id/Confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="예약하기"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+            </TextView>
+            <TextView
+                android:id="@+id/ToastText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"></TextView>
+        </LinearLayout>
+</LinearLayout>

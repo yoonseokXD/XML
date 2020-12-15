@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Pasta"
+        android:title="파스타">
+    </item>
+    <item
+        android:id="@+id/Pizza"
+        android:title="피자">
+
+    </item>
+    <item
+        android:id="@+id/Hamburger"
+        android:title="햄버거">
+
+    </item>
+</menu>
